@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Number
+{
+    public static void main(String [] args)
+    {
+        Scanner a = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        int num=a.nextInt();
+        Scanner n=new Scanner(System.in);
+        System.out.println("Enter the Value: ");
+        int power=  n.nextInt();
+        int b,c,d;
+        c=1;
+        d=0;
+        for(int i=0; i<=power; i++)
+        {
+           b=(int)Math.pow(num,c);
+           System.out.println(b);
+           c++;
+           d+=b;
+        }
+        System.out.println("The sum of series is: "+d);
+    }
+}
