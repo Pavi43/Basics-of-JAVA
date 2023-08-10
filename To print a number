@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class Number{
+    
+    public static void main(String[] args) {
+       System.out.println("Enter a number:");
+       Scanner a= new Scanner(System.in);
+       int b=a.nextInt();
+       System.out.println("The Entered number is " +b);
+    }
+}
